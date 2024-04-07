@@ -1,0 +1,12 @@
+{
+  "rcloneCommand": ["move", "/data/to/downloads", "gd:downloads", "-v", "--exclude", "*!qB"],
+  "diskUsageThreshold": {
+    "high": 95,
+    "low": 60
+  },
+  "qBittorrent": {
+    "url": "http://localhost:8080",
+    "username": "admin",
+    "password": "password"
+  }
+}
